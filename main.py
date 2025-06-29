@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib3.exceptions import MaxRetryError
 import sys
 
+
 VERSION = "2.1"
 
 class Config:
