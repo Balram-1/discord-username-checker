@@ -545,7 +545,7 @@ def WEBHOOK_PROCESSOR():
 
                 sleep(0.3)
 
-            # Extend names_diff with the new names
+            # Extend names_diff with the new namess
           
             names_diff.extend(new_names)
 
@@ -630,3 +630,4 @@ print(f"[{Colors.GREEN}+{Colors.ENDC}] Total requests = {Colors.CYAN}{REQUESTS}{
 print(f"[{Colors.GREEN}+{Colors.ENDC}] Total valid names = {Colors.CYAN}{WORKS}{Colors.ENDC}")
 print(f"[{Colors.GREEN}+{Colors.ENDC}] Total invalid names = {Colors.CYAN}{TAKEN}{Colors.ENDC}")
 print(f"[{Colors.GREEN}+{Colors.ENDC}] Total time = {Colors.CYAN}{round(time()-start_time)}{Colors.ENDC} seconds")
+
